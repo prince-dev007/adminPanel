@@ -1,0 +1,44 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-wrapper
+{
+    background-color:#1976d2;
+    box-shadow: none;
+}
+.nav-wrapper .brand-logo
+{
+    margin-left: 10px;
+}
+.nav-wrapper .sidenav-trigger i
+{
+    color: #fff !important;
+}
+.nav-wrapper ul li a
+{
+    font-weight: bold;
+}
+#dropdown1 ul li a
+{
+    color: #dc3545 !important;
+}
+
+.main
+{
+    padding-top:20px;
+}
+
+header, .main, footer {
+    padding-left: 300px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, .main, footer {
+      padding-left: 0;
+    }
+  }

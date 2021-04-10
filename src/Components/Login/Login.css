@@ -1,0 +1,24 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+#loginSection1
+{
+    padding-top: 100px;
+}
+
+#loginSection1 p
+{
+    font-weight: bold;
+}
+#loginSection1 label{
+    font-weight: bold;
+}
+#loginSection1 .btn
+{
+    background-color:#0288d1;
+    margin:5px auto;
+}
